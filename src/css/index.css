@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+    font-family: 'Lato';
+    font-style: normal;
+}
+
+body {
+    font-size: 100%;
+    background: #FFF3E9;
+    overflow-x: hidden;
+}
+
+.conteudo-principal {
+    height: 51vh;
+    background-color: #FFF3E9;
+}
+
+.logo-vitagema {
+    width: 143px;
+    height: 79px;
+    left: 100px;
+    top: 42.62px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.menu-header {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-item {
+    color: #2B9E56;
+}
+
+.button {
+    background-color: #2B9E56;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 8px 1px #7e7e7e;
+
+    width: 200px;
+}
+
+.button:nth-child(3) {
+    width: 243px;
+    height: 40px;
+}
+
+.button:hover {
+    background-color: #F3931F;
+    color: white;
+}
+
+.button:active {
+    background-color: #FFFFFF;
+    color: #F3931F;
+}
+
+.div-button {
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.texto-principal {
+    position: absolute;
+    width: 543px;
+    height: 103px;
+    left: 190px;
+    top: 239.62px;
+}
+
+.vitagema {
+    color: #2B9E56;
+}
+
+.texto-titulo {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    color: #F3931F;
+}
+
+.texto-secundario {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #6C757A;
+}
+
+.bottom-two-section{
+    position: absolute;
+    z-index: -4;
+    margin-top: 120px;
+}
+
+.img-principal {
+    position: absolute;
+    width: 1256.96px;
+    height: 544.13px;
+    left: 45%;
+    top: 142.87px;
+}
+
+.vector {
+    position: absolute;
+    top: 353px;
+    right: -69px;
+    z-index: 3;
+}
+
+.vector-2 {
+    position: absolute;
+    top: 353px;
+    right: -70px;
+    bottom: -1%;
+    z-index: 1;
+}
+
+.vector-back {
+    position: absolute;
+    top: 125px;
+    right: 8%;
+}
+
+.heightFull {
+    height: 90vh;
+}
+
+/* Seção 2 */
+
+.heightFull .texto1-secao2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: white;
+}
+
+.heightFull .texto2-secao2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: white;
+}
+
+.conteudo-secundario {
+    position: relative;
+    z-index: 2;
+
+    height: 526px;
+    background-color: #2B9E56;
+}
+
+article {
+    --title-color: #F3931F;
+    margin-top: 45px;
+    position: relative;
+    /* left: 88px; */
+    border-radius: 24px;
+    width: 288px;
+    height: 400px;
+    background: #FFFFFF;
+}
+
+.articles {
+    display: grid;
+    margin-top: 10px;
+    justify-content: center;
+    grid-template-columns: 23% 23% 23% 20%;
+}
+
+
+article h2 {
+    font-weight: 900;
+    font-size: 24px;
+
+    position: absolute;
+    width: 163px;
+    height: 39px;
+    left: 40px;
+    top: 45px;
+    white-space: nowrap;
+
+    color: var(--title-color);
+}
+
+.article-text {
+    position: absolute;
+    width: 190px;
+    height: 39px;
+    left: 40px;
+    top: 100px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #6C757A;
+}
+
+figure {
+    position: relative;
+    top: 230px;
+    margin: 0;
+    padding: 0;
+    bottom: auto;
+    aspect-ratio: 16 / 9;
+}
+
+/* Seção 3 */
+
+.conteudo-terceario {
+    height: 101vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+.texto-secao3 {
+    width: 32%;
+    height: 40%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    position: relative;
+    left: 791px;
+    top: 157px;
+    color: #2C2C30;
+}
+
+.texto-secao3 h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #F3931F;
+    position: absolute;
+    right: 25px;
+    bottom: 440px;
+    width: 95%;
+}
+
+.foto-homem {
+    position: absolute;
+    width: 408px;
+    height: 435px;
+    left: 210px;
+    top: 1585px;
+}
+
+.ovos {
+    position: absolute;
+    width: 320px;
+    height: 120px;
+    left: 365px;
+    top: 1957px;
+}
+
+.fundo-foto-homem {
+    position: absolute;
+    width: 325px;
+    height: 267px;
+    left: 120px;
+    top: 1517px;
+}
+
+.galinha {
+    position: absolute;
+    width: 234px;
+    height: 259px;
+    left: 1188px;
+    top: 1964px;
+}
+
+.botao-terceira-secao {
+    position: absolute;
+    right: 255px;
+    top: 410px;
+}
+
+.quarta-secao {
+    width: 100%;
+    height: 260px;
+    background: #F3931F;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.quarta-secao h1 {
+    color: #974E00
+}
+
+.vantagens-vitagema h2 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 10px;
+    color: white;
+}
+
+.vantagens-vitagema {
+    display: flex;
+    margin-top: 55px;
+    gap: 110px;
+}
+
+.vantagem-item {
+    display: flex;
+    align-items: center;
+
+}
+
+
+@media screen and (max-width: 1440px) {
+    .img-principal {
+        position: absolute;
+        width: 1256.96px;
+        height: 544.13px;
+        left: 540.26px;
+        top: 142.87px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .img-principal {
+        position: absolute;
+        width: 1256.96px;
+        height: 544.13px;
+        left: 37%;
+        top: 142.87px;
+    }
+
+    .conteudo-secundario {
+        z-index: 2;
+    }
+
+    .vector {
+        position: absolute;
+        top: 36%;
+        right: -7%;
+        bottom: -1%;
+        z-index: 3;
+    }
+
+    .vector-2 {
+        position: absolute;
+        top: 36%;
+        right: -7.08%;
+        bottom: -1%;
+        z-index: 1;
+    }
+
+    .vector-back {
+        position: absolute;
+        top: 12.5%;
+        right: 0%;
+    }
+
+}
